@@ -7,13 +7,13 @@
 }
 
 html {
-	font-size: 10px;
+	font-size: 12px;
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
 
 body{
-    background: #000101;
+    background: #012;
 }
 
 
@@ -24,14 +24,14 @@ body{
     font-size: 1.7rem;
 	text-transform: uppercase;
     border-radius: .5rem;
-    border:.2rem solid white;
+    border:.2rem solid teal;
     color: #fff;
     cursor: pointer;
-    background: turquoise;
+    background: teal;
 }
 
 .btn-b:hover{
-    background: turquoise;
+    background: teal;
     color:#fff;
 }
 
@@ -74,7 +74,7 @@ p {
 }
 
 .section-title span {
-	color: turquoise;
+	color: teal;
 }
 
 .cta {
@@ -82,7 +82,7 @@ p {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid white;
+	border: 2px solid teal;
 	border-radius: 25px;
 	font-size: 2rem;
 	text-transform: uppercase;
@@ -94,7 +94,7 @@ p {
 
 .cta:hover {
 	color: white;
-	background-color: turquoise;
+	background-color: teal;
 }
 
 .brand h1 {
@@ -104,7 +104,7 @@ p {
 }
 
 .brand h1 span {
-	color: turquoise;
+	color: teal;
 }
 
 /* Header section */
@@ -119,8 +119,7 @@ p {
 
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
-	transition: 0.3s ease background-color;
+	background-color: #012;
 }
 
 #header .nav-bar {
@@ -136,7 +135,7 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: rgb(31, 30, 30);
+	background-color: #012;
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -184,7 +183,7 @@ p {
 }
 
 #header .nav-list ul li:hover a {
-	color: turquoise;
+	color: teal;
 }
 
 #header .hamburger {
@@ -262,7 +261,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #000101;
+	background-color: #012;
 	opacity: 0.7;
 	z-index: -1;
 }
@@ -304,7 +303,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: turquoise;
+	background-color: teal;
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -405,7 +404,7 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #001 0%, #0f0f0f 100%);
 	color: #fff;
 }
 
@@ -418,7 +417,7 @@ p {
 #projects .project-info .info-btn button{
 	padding: 10px;
 	border-radius: 15px;
-	background: turquoise;
+	background: teal;
 	color: #000;
 }
 
@@ -485,7 +484,7 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
     box-shadow: #fff;
-    background:#000101;
+    background:#012;
 }
 
 #blogs .box-box .box img{
@@ -508,7 +507,7 @@ p {
 }
 
 #blogs .box-box .box .content .icons a{
-    color: turquoise;
+    color: teal;
     font-size: 1.5rem;
 }
 
@@ -517,7 +516,7 @@ p {
 }
 
 #blogs .box-box .box .content .icons a i{
-    color: turquoise;
+    color: teal;
     padding-right: .5rem;
 }
 
@@ -560,8 +559,9 @@ p {
 }
 
 #about .col-right h2 {
-	font-size: 1.8rem;
+	font-size: 2.5rem;
 	font-weight: 500;
+	color: #fff;
 	letter-spacing: 0.2rem;
 	margin-bottom: 10px;
 }
@@ -575,7 +575,7 @@ p {
 	margin-bottom: 50px;
 	padding: 10px 20px;
 	font-size: 2rem;
-	border: 1px solid turquoise;
+	border: 1px solid teal;
 }
 
 
@@ -593,7 +593,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 5px solid turquoise;
+	border: 5px solid teal;
 	z-index: -1;
 }
 
@@ -719,7 +719,7 @@ p {
 
 @keyframes text_reveal_name {
 	100% {
-		color: turquoise;
+		color: teal;
 		font-weight: 500;
 	}
 }
@@ -787,7 +787,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid turquoise;
+		border: 10px solid teal;
 	}
 
 	#about .col-right {
